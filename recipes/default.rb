@@ -6,7 +6,7 @@ bash 'make & install msgpack' do
   cwd Chef::Config[:file_cache_path]
   code <<-EOF
 	  tar zxf msgpack.tar.gz
-	  cd msgpack-master
+	  cd msgpack-php-master
 	  phpize
 	  ./configure
 	  make && make install

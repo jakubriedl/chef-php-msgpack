@@ -4,6 +4,6 @@ maintainer_email 'email@jakubriedl.cz'
 license          'MIT'
 description      'Installs/Configures php-msgpack'
 long_description 'Installs/Configures php-msgpack'
-version          '0.1.0'
+version          '0.1.1'
 
 recommends 'php'
