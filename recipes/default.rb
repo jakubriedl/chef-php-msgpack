@@ -13,7 +13,7 @@ bash 'make & install msgpack' do
   EOF
 end
 
-node['php-msgpack']['conf_dirs'].each do |conf_dir|
+node['php']['conf_dirs'].each do |conf_dir|
 	file "#{conf_dir}/#{node['php-msgpack']['conf_file']}" do
 		owner 'root'
 		group 'root'
